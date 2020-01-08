@@ -9,4 +9,13 @@ In older Swedish, nouns could either have a masculine, feminine or neutral gende
 | Definite article singular | Herð**en** | Gribb**ena** | Hjart**að** |
 | Definite article plural | Herð**ana** | Gribb**erna** | Hjart**enen** |
 
-In this project (which was developed during my first year of Computer Science at KTH), I developed a simple website that displays the former three grammatical genders of Swedish nouns. Firstly, I wrote a web scraper that scrapes the words with the corresponding genders from an older dictionary (Dalins ordbok) and writes them to JSON. Secondly, these were added to a PostgreSQL database. Lastly, I wrote a website primarily in Golang, some JS to make it dynamic and a simple HTML+CSS structure for front-end. The final project looks something like this in practice:
+In this project (which was developed during my first year of Computer Science at KTH), I developed a simple website that displays the former three grammatical genders of Swedish nouns. Firstly, I wrote a web scraper that scrapes the words with the corresponding genders from an older dictionary (Dalins ordbok) and writes them to JSON. Secondly, these were added to a PostgreSQL database. Lastly, I wrote a simple website: the back-end in Golang, some JS to make it dynamic and a simple HTML+CSS structure for front-end. The final project looks something like this in practice:
+
+![main](https://github.com/Isterdam/hanhondet/blob/master/images/hanhondetmain.JPG "The main page")
+
+![sol](https://github.com/Isterdam/hanhondet/blob/master/images/hanhondetsol.JPG "Displaying search results for \"sol\"")
+
+![stol](https://github.com/Isterdam/hanhondet/blob/master/images/hanhondetstol.JPG "Displaying search results for \"stol\"")
+
+![error](https://github.com/Isterdam/hanhondet/blob/master/images/hanhondeterror.JPG "The error page")
+
