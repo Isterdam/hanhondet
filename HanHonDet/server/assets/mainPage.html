@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HanHonDet</title>
+  <script type="text/javascript" src="js/urlParser.js"></script>
+  <script type="text/javascript" src="js/presentWord.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <center>
+    <div style="height:120px;"></div>
+    <!-- id="words" is the info to be displayed -->
+    <h1 id="words" width="500" border="1">
+      <script>
+        try {
+          document.getElementById("words").innerHTML = getWordInfo(parseURLParams(window.location.href));
+        } catch(TypeError) {
+          document.getElementById("words").innerHTML = "Välkommen till HanHonDet!";
+        }
+      </script>
+    </h1>
+  </center>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Building search bar and button -->
+  <div class="container">
+    <form class="example" action="/info" method="post">
+      <input type="text" name="ord" placeholder="Sök på ett svenskt substantiv..." style="margin:0px auto; display:block;">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+
+</body>
+</html>
