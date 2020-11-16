@@ -4,7 +4,7 @@ In older Swedish, nouns could either have a masculine, feminine or neutral gende
 
 |              | Én herð**e** (A shepherd) | Éna gribbe (A girl) | Étt hjarta (A heart) |
 |--------------|-------------|-----------|------------|
-|    Gender     | Hanð (He)  | Honð (Her)   | Dæd (It)    |
+|    Gender     | Hanð (He)  | Honð (She)   | Dæd (It)    |
 | Indefinite article plural | Herð**a** | Gribb**er** | Hjart**en** |
 | Definite article singular | Herð**en** | Gribb**ena** | Hjart**að** |
 | Definite article plural | Herð**ana** | Gribb**erna** | Hjart**enen** |
